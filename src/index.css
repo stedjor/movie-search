@@ -3,9 +3,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #333333 !important;
+  background-color       : #333333 !important;
 }
 
 code {
@@ -13,7 +13,20 @@ code {
     monospace;
 }
 
-.header-signature{
-  color: gold !important;
-  text-shadow: 0px 0px  25px white;
+.header-signature {
+  color         : gold !important;
+  text-shadow   : 0px 0px 25px white;
+  font-family   : 'Great Vibes';
+  font-size     : 25px !important;
+  font-style    : italic;
+  letter-spacing: 3px;
+}
+
+.header-icon {
+  color        : gold !important;
+  margin-bottom: 1rem;
+}
+
+.header-icon:hover {
+  color: white !important;
 }
