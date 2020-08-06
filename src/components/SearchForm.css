@@ -1,0 +1,114 @@
+.movie-input {
+    border: 1px solid black !important;
+}
+
+.movie-input:focus {
+    border-color: rgba(255, 215, 0, 1) !important;
+    box-shadow  : 0 0 0 0.2rem rgba(255, 215, 0, 0.25) !important;
+}
+
+.movie-sort-btn {
+    border          : 1px solid rgba(0, 0, 0, 1) !important;
+    background-color: rgba(255, 255, 255, 1) !important;
+    color           : #333333 !important;
+}
+
+.movie-sort-btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25) !important;
+}
+
+.movie-search-btn {
+    background-color: rgba(255, 215, 0, 1) !important;
+    border-color    : rgba(255, 215, 0, 1) !important;
+    color           : rgb(51, 51, 51) !important;
+}
+
+.movie-search-btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25) !important;
+}
+
+
+.movie-reset-btn {
+    background-color: rgb(102, 102, 102) !important;
+    border-color    : rgb(102, 102, 102) !important;
+    color           : rgb(255, 215, 0) !important;
+}
+
+.movie-reset-btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25) !important;
+}
+
+.movie-card {
+    cursor          : pointer;
+    background-color: rgb(102, 102, 102) !important;
+    border          : 1px solid #202020 !important;
+}
+
+.movie-card:hover {
+    opacity: 0.9;
+    border : 1px solid rgb(255, 215, 0) !important;
+}
+
+.movie-card>.movie-img {
+    min-height         : 300px;
+    width              : 100%;
+    background-image   : url('../no-image-icon.jpg');
+    background-size    : cover;
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+.movie-card>.card-body>h5 {
+    color: gold !important;
+}
+
+.movie-card>.card-body>p {
+    color: white !important;
+}
+
+.movie-card>.card-body>p>span {
+    color     : gold !important;
+    font-style: italic;
+}
+
+.modal-backdrop {
+    position     : absolute;
+    opacity      : 0.8;
+    width        : 100%;
+    height       : 100%;
+    border-radius: 5px;
+}
+
+.movie-modal-dialog {
+    max-width: 700px !important;
+}
+
+.movie-modal-header {
+    background-color: #333333 !important;
+    color           : gold;
+    border-bottom   : 1px solid #202020 !important;
+}
+
+.movie-modal-header>.movie-modal-close {
+    color      : gold;
+    text-shadow: 0 1px 0 #000;
+}
+
+.movie-modal-header>.movie-modal-close:hover {
+    color      : white;
+    text-shadow: 0 1px 0 #666;
+}
+
+.movie-modal-header>.movie-modal-close:focus {
+    outline: none;
+}
+
+.movie-modal-header>div>.movie-date-sm {
+    color    : #aaaaaa;
+    font-size: 12px;
+}
+
+.movie-modal-header>div>.movie-date-sm>span {
+    color     : #888888;
+    font-style: italic;
+}
